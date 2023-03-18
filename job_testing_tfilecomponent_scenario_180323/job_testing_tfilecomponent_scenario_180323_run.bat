@@ -1,0 +1,3 @@
+%~d0
+cd %~dp0
+java -Xms256M -Xmx1024M -cp .;../lib/routines.jar;../lib/dom4j-1.6.1.jar;../lib/jakarta-oro-2.0.8.jar;../lib/log4j-1.2.16.jar;../lib/talend_file_enhanced_20070724.jar;../lib/talendcsv.jar;../lib/thashfile-2.0-20170329.jar;job_testing_tfilecomponent_scenario_180323_0_1.jar; dilip_2023.job_testing_tfilecomponent_scenario_180323_0_1.job_testing_tfilecomponent_scenario_180323 --context=Default %* 
